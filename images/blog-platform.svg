@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <title>Blog platform preview placeholder</title>
+  <rect width="800" height="450" fill="#dce8dc"/>
+  <rect x="58" y="42" width="684" height="366" rx="12" fill="#fbf8ef"/>
+  <path d="M58 105h684" stroke="#ddd9cd" stroke-width="2"/><rect x="94" y="67" width="148" height="16" rx="8" fill="#29463e"/>
+  <rect x="94" y="137" width="360" height="220" rx="6" fill="#d17b5b"/>
+  <circle cx="273" cy="247" r="71" fill="#e9bc73"/><path d="M153 330c35-62 77-74 120-31 48-63 99-40 142 31" fill="#64836d"/>
+  <rect x="486" y="146" width="200" height="18" rx="9" fill="#29463e"/><rect x="486" y="180" width="172" height="9" rx="4" fill="#9caa9f"/><rect x="486" y="199" width="188" height="9" rx="4" fill="#c1c9bf"/>
+  <rect x="486" y="234" width="192" height="9" rx="4" fill="#9caa9f"/><rect x="486" y="253" width="174" height="9" rx="4" fill="#c1c9bf"/><rect x="486" y="272" width="182" height="9" rx="4" fill="#c1c9bf"/>
+  <rect x="486" y="312" width="104" height="28" rx="14" fill="#29463e"/>
+</svg>

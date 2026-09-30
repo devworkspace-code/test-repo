@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <title>Weather dashboard preview placeholder</title>
+  <rect width="800" height="450" fill="#d8e9ed"/>
+  <rect x="54" y="42" width="692" height="366" rx="18" fill="#f7faf8"/>
+  <rect x="54" y="42" width="692" height="54" rx="18" fill="#183d50"/>
+  <circle cx="88" cy="69" r="12" fill="#efb94f"/><rect x="112" y="62" width="128" height="13" rx="6" fill="#f7faf8"/>
+  <rect x="90" y="126" width="246" height="236" rx="12" fill="#e5f1f0"/>
+  <circle cx="210" cy="222" r="43" fill="#f0b747"/><path d="M133 293c12-37 48-44 70-20 17-49 86-39 89 9 35 1 43 50 5 55H153c-30 0-40-25-20-44z" fill="#fff"/>
+  <rect x="374" y="126" width="324" height="102" rx="12" fill="#dcebf3"/>
+  <path d="M401 199c37-57 69-20 102-46s68 17 102-11 53-1 66-13" fill="none" stroke="#39889a" stroke-width="6" stroke-linecap="round"/>
+  <rect x="374" y="248" width="98" height="114" rx="10" fill="#f7edcf"/><rect x="487" y="248" width="98" height="114" rx="10" fill="#e4eff4"/><rect x="600" y="248" width="98" height="114" rx="10" fill="#e4eff4"/>
+  <circle cx="423" cy="286" r="15" fill="#efb94f"/><path d="M518 298c7-20 38-23 48-3 20 1 21 22 1 25h-44c-14-1-15-17-5-22z" fill="#79a9bc"/><path d="M630 298c7-20 38-23 48-3 20 1 21 22 1 25h-44c-14-1-15-17-5-22z" fill="#79a9bc"/>
+</svg>

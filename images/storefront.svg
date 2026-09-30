@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <title>E-commerce storefront preview placeholder</title>
+  <rect width="800" height="450" fill="#e9d8ce"/>
+  <rect x="52" y="42" width="696" height="366" rx="16" fill="#fffaf4"/>
+  <rect x="52" y="42" width="696" height="56" rx="16" fill="#fffaf4"/>
+  <circle cx="92" cy="70" r="14" fill="#d66e54"/><rect x="122" y="63" width="104" height="14" rx="7" fill="#353b37"/>
+  <rect x="560" y="62" width="140" height="16" rx="8" fill="#e8e6df"/>
+  <rect x="78" y="124" width="644" height="90" rx="10" fill="#f2c2aa"/>
+  <rect x="108" y="151" width="192" height="18" rx="9" fill="#653f37"/><rect x="108" y="180" width="130" height="9" rx="4" fill="#a66f5e"/>
+  <rect x="78" y="238" width="145" height="136" rx="8" fill="#e4e9dc"/><rect x="242" y="238" width="145" height="136" rx="8" fill="#dce8ec"/><rect x="406" y="238" width="145" height="136" rx="8" fill="#f1e4c7"/><rect x="570" y="238" width="152" height="136" rx="8" fill="#e8dfe5"/>
+  <path d="M122 268h58l12 24-12 48h-58l-12-48z" fill="#5b7862"/><path d="M286 266h56v75h-56z" fill="#6693a1"/><circle cx="478" cy="302" r="31" fill="#d89655"/><path d="M620 268h54v70h-54z" fill="#a66b88"/>
+  <rect x="106" y="350" width="72" height="8" rx="4" fill="#8d9990"/><rect x="270" y="350" width="72" height="8" rx="4" fill="#8d9990"/><rect x="458" y="350" width="40" height="8" rx="4" fill="#8d9990"/><rect x="610" y="350" width="72" height="8" rx="4" fill="#8d9990"/>
+</svg>

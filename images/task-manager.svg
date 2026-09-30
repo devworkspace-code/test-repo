@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <title>Task management app preview placeholder</title>
+  <rect width="800" height="450" fill="#e9e4d5"/>
+  <rect x="52" y="44" width="696" height="362" rx="14" fill="#faf9f4"/>
+  <rect x="52" y="44" width="150" height="362" rx="14" fill="#263c3a"/>
+  <rect x="78" y="75" width="94" height="16" rx="8" fill="#f0c36d"/>
+  <rect x="78" y="126" width="84" height="10" rx="5" fill="#87a49a"/><rect x="78" y="153" width="96" height="10" rx="5" fill="#87a49a"/><rect x="78" y="180" width="72" height="10" rx="5" fill="#87a49a"/>
+  <rect x="228" y="76" width="460" height="24" rx="12" fill="#263c3a"/>
+  <rect x="228" y="128" width="140" height="242" rx="8" fill="#e9eee8"/><rect x="386" y="128" width="140" height="242" rx="8" fill="#f5ead0"/><rect x="544" y="128" width="144" height="242" rx="8" fill="#f4e2dc"/>
+  <rect x="244" y="151" width="88" height="12" rx="6" fill="#497968"/><rect x="402" y="151" width="80" height="12" rx="6" fill="#b88637"/><rect x="560" y="151" width="90" height="12" rx="6" fill="#c36b55"/>
+  <rect x="242" y="181" width="112" height="50" rx="6" fill="#fff"/><rect x="242" y="242" width="112" height="68" rx="6" fill="#fff"/>
+  <rect x="400" y="181" width="112" height="66" rx="6" fill="#fff"/><rect x="558" y="181" width="116" height="50" rx="6" fill="#fff"/>
+  <path d="M254 198h72m-72 12h54m-54 44h68m-68 12h42m-42 12h60m-26-99h58m-58 12h44m-44 12h62" stroke="#aebbb3" stroke-width="5" stroke-linecap="round"/>
+</svg>

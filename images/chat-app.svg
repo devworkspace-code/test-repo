@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <title>Real-time chat app preview placeholder</title>
+  <rect width="800" height="450" fill="#dbe8eb"/>
+  <rect x="64" y="38" width="672" height="374" rx="18" fill="#fbfaf6"/>
+  <rect x="64" y="38" width="202" height="374" rx="18" fill="#23434b"/>
+  <rect x="92" y="68" width="126" height="15" rx="7" fill="#f5f2e9"/><rect x="90" y="113" width="150" height="42" rx="8" fill="#37616a"/><circle cx="111" cy="134" r="11" fill="#e9ac6a"/><rect x="132" y="127" width="82" height="8" rx="4" fill="#f5f2e9"/><rect x="132" y="140" width="59" height="6" rx="3" fill="#9db8b6"/>
+  <circle cx="109" cy="190" r="11" fill="#a4c3ad"/><rect x="132" y="184" width="77" height="7" rx="3" fill="#d4e1dc"/><circle cx="109" cy="235" r="11" fill="#db8b70"/><rect x="132" y="229" width="92" height="7" rx="3" fill="#d4e1dc"/><circle cx="109" cy="280" r="11" fill="#8daac4"/><rect x="132" y="274" width="67" height="7" rx="3" fill="#d4e1dc"/>
+  <rect x="294" y="67" width="176" height="14" rx="7" fill="#23434b"/><path d="M315 128h198a14 14 0 0 1 14 14v29a14 14 0 0 1-14 14H337l-22 15v-15a14 14 0 0 1-14-14v-29a14 14 0 0 1 14-14z" fill="#e7ece5"/>
+  <path d="M472 217h204a14 14 0 0 1 14 14v29a14 14 0 0 1-14 14H495l-23 15v-15a14 14 0 0 1-14-14v-29a14 14 0 0 1 14-14z" fill="#b8d8d0"/>
+  <path d="M315 300h174a14 14 0 0 1 14 14v27a14 14 0 0 1-14 14H337l-22 15v-15a14 14 0 0 1-14-14v-27a14 14 0 0 1 14-14z" fill="#e7ece5"/>
+  <rect x="294" y="373" width="408" height="23" rx="11" fill="#edf0eb"/><circle cx="680" cy="384" r="7" fill="#db8b70"/>
+</svg>

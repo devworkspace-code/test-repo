@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <title>Portfolio website preview placeholder</title>
+  <rect width="800" height="450" fill="#d9e8df"/>
+  <rect x="66" y="48" width="668" height="354" rx="18" fill="#fffdf8"/>
+  <path d="M66 98h668" stroke="#d8ded8" stroke-width="2"/>
+  <circle cx="94" cy="73" r="7" fill="#e8795e"/><circle cx="118" cy="73" r="7" fill="#e8bb58"/><circle cx="142" cy="73" r="7" fill="#73a58c"/>
+  <rect x="104" y="142" width="250" height="22" rx="11" fill="#173d3a"/>
+  <rect x="104" y="181" width="190" height="12" rx="6" fill="#91a8a0"/>
+  <rect x="104" y="204" width="218" height="12" rx="6" fill="#c6d1ca"/>
+  <rect x="104" y="244" width="128" height="38" rx="19" fill="#e8795e"/>
+  <rect x="454" y="132" width="216" height="220" rx="10" fill="#b4d2c3"/>
+  <circle cx="562" cy="216" r="54" fill="#efb85b"/>
+  <path d="M490 326c26-61 109-83 145-30v30z" fill="#39766c"/>
+</svg>
