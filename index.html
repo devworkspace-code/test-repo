@@ -11,7 +11,10 @@
   <body>
     <header>
       <h1 id="home">Developer Portfolio</h1>
-      <nav aria-label="Main navigation">
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+      <nav id="primary-navigation" aria-label="Main navigation" hidden>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about-heading">About</a></li>
@@ -19,6 +22,7 @@
         </ul>
       </nav>
     </header>
+    <div id="menu-backdrop" class="menu-backdrop" aria-hidden="true" hidden></div>
     <main>
       <p>Welcome.</p>
       <article>
@@ -28,71 +32,106 @@
 
       <section aria-labelledby="projects-heading">
         <h2 id="projects-heading">Projects</h2>
-        <article>
+        <div class="project-filter">
+          <label for="project-category">Filter by category</label>
+          <select id="project-category" name="project-category">
+            <option value="all">All categories</option>
+            <option value="website">Websites</option>
+            <option value="application">Applications</option>
+            <option value="dashboard">Dashboards</option>
+            <option value="commerce">Commerce</option>
+          </select>
+          <p id="project-filter-status" role="status" aria-live="polite">Showing all 8 projects.</p>
+        </div>
+        <article data-category="website">
           <h3>Portfolio Website</h3>
           <figure>
-            <img src="images/portfolio.svg" alt="Portfolio website mockup with a browser header, introductory text, and illustrated profile panel">
+            <button class="project-image-button" type="button" aria-haspopup="dialog" aria-controls="project-lightbox" aria-label="Enlarge Portfolio Website preview">
+              <img src="images/portfolio.svg" alt="Portfolio website mockup with a browser header, introductory text, and illustrated profile panel">
+            </button>
             <figcaption>Replace this placeholder with a screenshot of the portfolio website.</figcaption>
           </figure>
           <p>Project description placeholder: Describe the site's purpose, design, and technologies.</p>
         </article>
-        <article>
+        <article data-category="application">
           <h3>Task Management App</h3>
           <figure>
-            <img src="images/task-manager.svg" alt="Task management board mockup with three columns and task cards">
+            <button class="project-image-button" type="button" aria-haspopup="dialog" aria-controls="project-lightbox" aria-label="Enlarge Task Management App preview">
+              <img src="images/task-manager.svg" alt="Task management board mockup with three columns and task cards">
+            </button>
             <figcaption>Replace this placeholder with a screenshot of the task management app.</figcaption>
           </figure>
           <p>Project description placeholder: Explain how users organize tasks and track progress.</p>
         </article>
-        <article>
+        <article data-category="dashboard">
           <h3>Weather Dashboard</h3>
           <figure>
-            <img src="images/weather-dashboard.svg" alt="Weather dashboard mockup with current conditions, a sun-and-cloud icon, and a forecast chart">
+            <button class="project-image-button" type="button" aria-haspopup="dialog" aria-controls="project-lightbox" aria-label="Enlarge Weather Dashboard preview">
+              <img src="images/weather-dashboard.svg" alt="Weather dashboard mockup with current conditions, a sun-and-cloud icon, and a forecast chart">
+            </button>
             <figcaption>Replace this placeholder with a screenshot of the weather dashboard.</figcaption>
           </figure>
           <p>Project description placeholder: Summarize the weather information and forecast features.</p>
         </article>
-        <article>
+        <article data-category="commerce">
           <h3>E-commerce Storefront</h3>
           <figure>
-            <img src="images/storefront.svg" alt="Online storefront mockup with a promotional banner and product grid">
+            <button class="project-image-button" type="button" aria-haspopup="dialog" aria-controls="project-lightbox" aria-label="Enlarge E-commerce Storefront preview">
+              <img src="images/storefront.svg" alt="Online storefront mockup with a promotional banner and product grid">
+            </button>
             <figcaption>Replace this placeholder with a screenshot of the online storefront.</figcaption>
           </figure>
           <p>Project description placeholder: Describe the product browsing and checkout experience.</p>
         </article>
-        <article>
+        <article data-category="website">
           <h3>Blog Platform</h3>
           <figure>
-            <img src="images/blog-platform.svg" alt="Blog platform mockup with a featured image and article text">
+            <button class="project-image-button" type="button" aria-haspopup="dialog" aria-controls="project-lightbox" aria-label="Enlarge Blog Platform preview">
+              <img src="images/blog-platform.svg" alt="Blog platform mockup with a featured image and article text">
+            </button>
             <figcaption>Replace this placeholder with a screenshot of the blog platform.</figcaption>
           </figure>
           <p>Project description placeholder: Outline the publishing, reading, and content discovery features.</p>
         </article>
-        <article>
+        <article data-category="application">
           <h3>Recipe Finder</h3>
           <figure>
-            <img src="images/recipe-finder.svg" alt="Recipe finder mockup with a search bar, illustrated meal, and recipe details">
+            <button class="project-image-button" type="button" aria-haspopup="dialog" aria-controls="project-lightbox" aria-label="Enlarge Recipe Finder preview">
+              <img src="images/recipe-finder.svg" alt="Recipe finder mockup with a search bar, illustrated meal, and recipe details">
+            </button>
             <figcaption>Replace this placeholder with a screenshot of the recipe finder.</figcaption>
           </figure>
           <p>Project description placeholder: Explain how users search for and explore recipes.</p>
         </article>
-        <article>
+        <article data-category="dashboard">
           <h3>Expense Tracker</h3>
           <figure>
-            <img src="images/expense-tracker.svg" alt="Expense tracking dashboard mockup with summary cards and charts">
+            <button class="project-image-button" type="button" aria-haspopup="dialog" aria-controls="project-lightbox" aria-label="Enlarge Expense Tracker preview">
+              <img src="images/expense-tracker.svg" alt="Expense tracking dashboard mockup with summary cards and charts">
+            </button>
             <figcaption>Replace this placeholder with a screenshot of the expense tracker.</figcaption>
           </figure>
           <p>Project description placeholder: Describe how spending is recorded and summarized.</p>
         </article>
-        <article>
+        <article data-category="application">
           <h3>Real-Time Chat App</h3>
           <figure>
-            <img src="images/chat-app.svg" alt="Chat app mockup with a conversation list and message bubbles">
+            <button class="project-image-button" type="button" aria-haspopup="dialog" aria-controls="project-lightbox" aria-label="Enlarge Real-Time Chat App preview">
+              <img src="images/chat-app.svg" alt="Chat app mockup with a conversation list and message bubbles">
+            </button>
             <figcaption>Replace this placeholder with a screenshot of the chat app.</figcaption>
           </figure>
           <p>Project description placeholder: Summarize the messaging and conversation features.</p>
         </article>
       </section>
+
+      <dialog id="project-lightbox" class="project-lightbox" aria-labelledby="lightbox-caption">
+        <button id="lightbox-close" class="lightbox-close" type="button" aria-label="Close image preview">Close</button>
+        <figure>
+          <img id="lightbox-image" alt="">
+          <figcaption id="lightbox-caption"></figcaption>
+        </figure>
+      </dialog>
 
       <section aria-labelledby="skills-heading">
         <h2 id="skills-heading">Skills</h2>
@@ -113,7 +152,7 @@
 
       <section aria-labelledby="contact-heading">
         <h2 id="contact-heading">Contact</h2>
-        <form aria-labelledby="contact-heading">
+        <form id="contact-form" aria-labelledby="contact-heading">
           <div>
             <label for="contact-name">Name</label>
             <input type="text" id="contact-name" name="name" autocomplete="name" required>
@@ -128,6 +167,7 @@
           </div>
           <button type="submit">Send message</button>
         </form>
+        <p id="contact-status" role="status"></p>
       </section>
     </main>
     <footer>
