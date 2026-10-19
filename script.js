@@ -71,7 +71,33 @@ function openProjectImage(image, projectName) {
 	projectLightbox.showModal();
 }
 
+const projectDetailsDialog = document.querySelector("#project-details-dialog");
+const projectDetailsTitle = document.querySelector("#project-details-title");
+const projectDetailsCategory = document.querySelector("#project-details-category");
+const projectDetailsDescription = document.querySelector("#project-details-description");
+const projectDetailsClose = document.querySelector("#project-details-close");
+const projectCategories = {
+	website: "Website",
+	application: "Application",
+	dashboard: "Dashboard",
+	commerce: "Commerce",
+};
+
+function openProjectDetails(project) {
+	projectDetailsTitle.textContent = project.querySelector("h3").textContent;
+	projectDetailsCategory.textContent = projectCategories[project.dataset.category];
+	projectDetailsDescription.textContent = project.querySelector(":scope > p").textContent;
+	projectDetailsDialog.showModal();
+}
+
 projectsSection.addEventListener("click", (event) => {
+	const detailsButton = event.target.closest(".project-details-button");
+
+	if (detailsButton) {
+		openProjectDetails(detailsButton.closest("article"));
+		return;
+	}
+
 	const imageButton = event.target.closest(".project-image-button");
 
 	if (!imageButton) {
@@ -80,6 +106,23 @@ projectsSection.addEventListener("click", (event) => {
 
 	const projectName = imageButton.closest("article").querySelector("h3").textContent;
 	openProjectImage(imageButton.querySelector("img"), projectName);
+});
+
+projectDetailsClose.addEventListener("click", () => {
+	projectDetailsDialog.close();
+});
+
+projectDetailsDialog.addEventListener("click", (event) => {
+	if (event.target === projectDetailsDialog) {
+		projectDetailsDialog.close();
+	}
+});
+
+projectDetailsDialog.addEventListener("keydown", (event) => {
+	if (event.key === "Escape") {
+		event.preventDefault();
+		projectDetailsDialog.close();
+	}
 });
 
 lightboxClose.addEventListener("click", () => {

@@ -16,9 +16,9 @@
       </button>
       <nav id="primary-navigation" aria-label="Main navigation" hidden>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about-heading">About</a></li>
-          <li><a href="#contact-heading">Contact</a></li>
+          <li><a href="#home">Home<span class="nav-tooltip" aria-hidden="true">Back to the top</span></a></li>
+          <li><a href="#about-heading">About<span class="nav-tooltip" aria-hidden="true">Meet the developer</span></a></li>
+          <li><a href="#contact-heading">Contact<span class="nav-tooltip" aria-hidden="true">Get in touch</span></a></li>
         </ul>
       </nav>
     </header>
@@ -52,6 +52,7 @@
             <figcaption>Replace this placeholder with a screenshot of the portfolio website.</figcaption>
           </figure>
           <p>Project description placeholder: Describe the site's purpose, design, and technologies.</p>
+          <button class="project-details-button" type="button" aria-haspopup="dialog" aria-controls="project-details-dialog">View project details</button>
         </article>
         <article data-category="application">
           <h3>Task Management App</h3>
@@ -62,6 +63,7 @@
             <figcaption>Replace this placeholder with a screenshot of the task management app.</figcaption>
           </figure>
           <p>Project description placeholder: Explain how users organize tasks and track progress.</p>
+          <button class="project-details-button" type="button" aria-haspopup="dialog" aria-controls="project-details-dialog">View project details</button>
         </article>
         <article data-category="dashboard">
           <h3>Weather Dashboard</h3>
@@ -72,6 +74,7 @@
             <figcaption>Replace this placeholder with a screenshot of the weather dashboard.</figcaption>
           </figure>
           <p>Project description placeholder: Summarize the weather information and forecast features.</p>
+          <button class="project-details-button" type="button" aria-haspopup="dialog" aria-controls="project-details-dialog">View project details</button>
         </article>
         <article data-category="commerce">
           <h3>E-commerce Storefront</h3>
@@ -82,6 +85,7 @@
             <figcaption>Replace this placeholder with a screenshot of the online storefront.</figcaption>
           </figure>
           <p>Project description placeholder: Describe the product browsing and checkout experience.</p>
+          <button class="project-details-button" type="button" aria-haspopup="dialog" aria-controls="project-details-dialog">View project details</button>
         </article>
         <article data-category="website">
           <h3>Blog Platform</h3>
@@ -92,6 +96,7 @@
             <figcaption>Replace this placeholder with a screenshot of the blog platform.</figcaption>
           </figure>
           <p>Project description placeholder: Outline the publishing, reading, and content discovery features.</p>
+          <button class="project-details-button" type="button" aria-haspopup="dialog" aria-controls="project-details-dialog">View project details</button>
         </article>
         <article data-category="application">
           <h3>Recipe Finder</h3>
@@ -102,6 +107,7 @@
             <figcaption>Replace this placeholder with a screenshot of the recipe finder.</figcaption>
           </figure>
           <p>Project description placeholder: Explain how users search for and explore recipes.</p>
+          <button class="project-details-button" type="button" aria-haspopup="dialog" aria-controls="project-details-dialog">View project details</button>
         </article>
         <article data-category="dashboard">
           <h3>Expense Tracker</h3>
@@ -112,6 +118,7 @@
             <figcaption>Replace this placeholder with a screenshot of the expense tracker.</figcaption>
           </figure>
           <p>Project description placeholder: Describe how spending is recorded and summarized.</p>
+          <button class="project-details-button" type="button" aria-haspopup="dialog" aria-controls="project-details-dialog">View project details</button>
         </article>
         <article data-category="application">
           <h3>Real-Time Chat App</h3>
@@ -122,6 +129,7 @@
             <figcaption>Replace this placeholder with a screenshot of the chat app.</figcaption>
           </figure>
           <p>Project description placeholder: Summarize the messaging and conversation features.</p>
+          <button class="project-details-button" type="button" aria-haspopup="dialog" aria-controls="project-details-dialog">View project details</button>
         </article>
       </section>
 
@@ -133,20 +141,27 @@
         </figure>
       </dialog>
 
+      <dialog id="project-details-dialog" class="project-details-dialog" aria-labelledby="project-details-title">
+        <button id="project-details-close" class="lightbox-close" type="button" aria-label="Close project details">Close</button>
+        <p id="project-details-category" class="project-details-category"></p>
+        <h2 id="project-details-title"></h2>
+        <p id="project-details-description"></p>
+      </dialog>
+
       <section aria-labelledby="skills-heading">
         <h2 id="skills-heading">Skills</h2>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>Git and GitHub</li>
-          <li>Responsive web design</li>
-          <li>REST APIs</li>
-          <li>Web accessibility</li>
-          <li>Testing and debugging</li>
+          <li tabindex="0" aria-describedby="skill-tooltip-html">HTML<span id="skill-tooltip-html" class="skill-tooltip" role="tooltip">Structures web pages with semantic elements.</span></li>
+          <li tabindex="0" aria-describedby="skill-tooltip-css">CSS<span id="skill-tooltip-css" class="skill-tooltip" role="tooltip">Styles layouts, colors, and responsive interfaces.</span></li>
+          <li tabindex="0" aria-describedby="skill-tooltip-javascript">JavaScript<span id="skill-tooltip-javascript" class="skill-tooltip" role="tooltip">Adds interactivity and behavior to web pages.</span></li>
+          <li tabindex="0" aria-describedby="skill-tooltip-typescript">TypeScript<span id="skill-tooltip-typescript" class="skill-tooltip" role="tooltip">Adds static types to help catch errors early.</span></li>
+          <li tabindex="0" aria-describedby="skill-tooltip-react">React<span id="skill-tooltip-react" class="skill-tooltip" role="tooltip">Builds interfaces from reusable UI components.</span></li>
+          <li tabindex="0" aria-describedby="skill-tooltip-node">Node.js<span id="skill-tooltip-node" class="skill-tooltip" role="tooltip">Runs JavaScript on servers and in development tools.</span></li>
+          <li tabindex="0" aria-describedby="skill-tooltip-git">Git and GitHub<span id="skill-tooltip-git" class="skill-tooltip" role="tooltip">Tracks code changes and supports collaboration.</span></li>
+          <li tabindex="0" aria-describedby="skill-tooltip-responsive">Responsive web design<span id="skill-tooltip-responsive" class="skill-tooltip" role="tooltip">Adapts layouts to phones, tablets, and desktops.</span></li>
+          <li tabindex="0" aria-describedby="skill-tooltip-apis">REST APIs<span id="skill-tooltip-apis" class="skill-tooltip" role="tooltip">Connects applications through web-based endpoints.</span></li>
+          <li tabindex="0" aria-describedby="skill-tooltip-accessibility">Web accessibility<span id="skill-tooltip-accessibility" class="skill-tooltip" role="tooltip">Makes websites usable for people of all abilities.</span></li>
+          <li tabindex="0" aria-describedby="skill-tooltip-testing">Testing and debugging<span id="skill-tooltip-testing" class="skill-tooltip" role="tooltip">Finds issues and verifies software works as expected.</span></li>
         </ul>
       </section>
 
